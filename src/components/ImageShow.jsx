@@ -1,7 +1,10 @@
-const ImageList = () => {
+
+const ImageShow = ({image}) => {
     return (
-        <div></div>
+        <div>
+            <img src ={image.urls.small} alr={image.alt_description} />
+        </div>
     )
 }
 
-export default ImageList
+export default ImageShow
